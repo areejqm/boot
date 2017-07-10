@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bootstrap 101 Template</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href = "css/style.css" rel = "stylesheet">
+   </head>
+   <body>
+   <div class="navbar navbar-inverse navbar-static-top">
+
+      <div class="container">
+         <a href="#" class="navbar-brand"> Tech Site</a>
+         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+         <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">Blog</a></li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="#">Twitter</a></li>
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">Google+</a></li>
+                     <li><a href="#">Instagram</a></li>
+
+                  </ul>
+               </li>
+               <li><a href="#">About</a></li>
+               <li><a href="#contact" data-toggle="modal"> Contact</a></li>
+            </ul>
+         </div>
+
+      </div>
+   </div>
+   <div class="container">
+      <div class="jumbotron text-center">
+         <h1> Hello World!</h1>
+         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet arcu odio, vel finibus eros condimentum et. Aliquam eleifend et risus quis euismod. Aenean commodo, diam ac pharetra vehicula, nisl odio facilisis risus, et lacinia tortor dui ac massa. Morbi ac bibendum est.</p>
+         <a class= "btn btn-default">Watch Now!</a>
+         <a class= "btn btn-info">Tweet it!!</a>
+      </div>
+   </div>
+   <div style="padding-bottom: 70px" class="container">
+      <div class="row">
+         <div class="col-md-3">
+            <h3> <a href="#">$500 Gaming PC Build</a></h3>
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet arcu odio, vel finibus eros condimentum et. Aliquam eleifend et risus quis euismod. Aenean commodo, diam ac pharetra vehicula, nisl odio facilisis risus, et lacinia tortor dui ac massa. Morbi ac bibendum est. <img align="right" height="55.38px" src="./img/imgOne.jpg"> </p>
+            <a href="#" class="btn btn-default">Read More</a>
+         </div>
+         <div class="col-md-3">
+            <h3> <a href="#">$500 Gaming PC Build</a></h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet arcu odio, vel finibus eros condimentum et. Aliquam eleifend et risus quis euismod. Aenean commodo, diam ac pharetra vehicula, nisl odio facilisis risus, et lacinia tortor dui ac massa. Morbi ac bibendum est. <img align="right" height="55.38px" src="./img/imgTwo.jpg"> </p>
+            <a href="#" class="btn btn-default">Read More</a>
+         </div>
+         <div class="col-md-3">
+            <h3> <a href="#">$500 Gaming PC Build</a></h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet arcu odio, vel finibus eros condimentum et. Aliquam eleifend et risus quis euismod. Aenean commodo, diam ac pharetra vehicula, nisl odio facilisis risus, et lacinia tortor dui ac massa. Morbi ac bibendum est. <img align="right" height="55.38px" src="./img/imgThree.jpg"> </p>
+            <a href="#" class="btn btn-default">Read More</a>
+         </div>
+         <div class="col-md-3">
+            <h3> <a href="#">$500 Gaming PC Build</a></h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet arcu odio, vel finibus eros condimentum et. Aliquam eleifend et risus quis euismod. Aenean commodo, diam ac pharetra vehicula, nisl odio facilisis risus, et lacinia tortor dui ac massa. Morbi ac bibendum est est. <img align="right" height="55.38px" src="./img/imgFour.jpg"> </p>
+            <a href="#" class="btn btn-default">Read More</a>
+         </div>
+
+      </div>
+   </div>
+   <div class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+         <p class="navbar-text pull-left"> Site Built By Areeeeeeej</p>
+         <a href="#" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+      </div>
+   </div>
+   <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+         <div class="modal-content">
+         <form class="form-horizontal">
+            <div class="modal-header">
+            <h4> Contact Tech Site</h4>
+            </div>
+            <div class="modal-body">
+               <div class="form-group">
+                  <label for="contact-name" class="col-lg-2">Name:</label>
+                  <div class="col-lg-10">
+                     <input type="text" class="form-control id="contact-name" placeholder="Full Name">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label for="contact-email" class="col-lg-2">Email:</label>
+                  <div class="col-lg-10">
+                     <input type="email" class="form-control id="contact-email" placeholder="you@example.com">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label for="contact-message" class="col-lg-2">Message:</label>
+                  <div class="col-lg-10">
+                     <textarea class="form-control" rows="8"></textarea>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <a class="btn btn-default" data-dismiss="modal"> Close</a>
+               <button data-dismiss="modal" class="btn btn-primary" type="submit"> Send</button>
+            </div>
+         </form>
+         </div>
+      </div>
+   </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
